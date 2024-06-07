@@ -170,7 +170,7 @@ DESKTOP
     }
 
     #MMO .mmo_carousel .c-img{
-        height: 100%;
+        height: 600px;
         width: 100%;
         object-fit: cover; 
     }
@@ -188,7 +188,7 @@ DESKTOP
         width: 600px;
     }
     #INF .inf_carousel .c-img{
-        height: 100%;
+        height: 600px;
         width: 100%;
         object-fit: cover; 
     }
