@@ -169,7 +169,7 @@ DESKTOP
         overflow: hidden;
     }
     #MMO .mmo_carousel .c-img{
-        object-fit: cover;
+        object-fit: fill;
         height: 100%; 
     }
 
@@ -184,10 +184,12 @@ DESKTOP
     #INF .inf_carousel .c-item{
         height: 530px;
         overflow: hidden;
+        width: 750px;
     }
     #INF .inf_carousel .c-img{
         object-fit: cover;
         height: 100%;
+        width: 100%;
     }
     
     #INF .texto{
