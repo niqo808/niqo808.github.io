@@ -166,6 +166,7 @@ DESKTOP
     
     #MMO .mmo_carousel .c-item{
         height: 280px;
+        width: 600px;
     }
 
     #MMO .mmo_carousel .c-img{
@@ -184,6 +185,7 @@ DESKTOP
     }    
     #INF .inf_carousel .c-item{
         height: 280px;
+        width: 600px;
     }
     #INF .inf_carousel .c-img{
         height: 100%;
