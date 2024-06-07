@@ -172,7 +172,6 @@ DESKTOP
 
     #MMO .mmo_carousel{
         display: flex;
-        background-image: url("/public/img/mmo.jpg");
         background-size: cover;
         background-position: center center;
         width: 1980px;
