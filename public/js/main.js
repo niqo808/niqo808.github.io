@@ -46,7 +46,7 @@ window.addEventListener("scroll",()=>{
 })
 
 
-const mmo_img = document.getElementById('mmo_carousel');
+/*const mmo_img = document.getElementById('mmo_carousel');
 const inf_img = document.getElementById('inf_carousel');
 
 const cargarImg = (entradas, observ) => {
@@ -70,3 +70,4 @@ const observ = new IntersectionObserver(cargarImg, {
 observ.observe(mmo_img);
 observ.observe(inf_img);
 
+/*
