@@ -170,7 +170,7 @@ MOBILE
         padding: 150px 20px;
     }
 
-    #MMO .img-container{
+    #MMO .carousel{
         display: flex;
         background-image: url("/public/img/mmo.jpg");
         background-size: cover;
