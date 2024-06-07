@@ -118,7 +118,7 @@ footer .container{
 }
 /*
 ********
-MOBILE
+DESKTOP
 ********
 */
 @media (min-width: 700px){
@@ -170,7 +170,7 @@ MOBILE
         padding: 150px 20px;
     }
 
-    #MMO .carousel{
+    #MMO .mmo_carousel{
         display: flex;
         background-image: url("/public/img/mmo.jpg");
         background-size: cover;
@@ -181,24 +181,14 @@ MOBILE
         opacity: 0;
         transform: scale(0.9);
         transition: 1.5s ease-in-out all;
-        
-        
-
     }
 
     
-
-    #MMO .img-container.visible{
+    #MMO .mmo_carousel.visible{
         opacity: 1;
         transform: scale(1) ;
-
-    
-
-        
     }
 
-    
-    
     #INF .container{
         display: flex;
         justify-content: center;
@@ -209,22 +199,18 @@ MOBILE
         padding: 150px 20px;
     }
     
-    #INF .img-inf{
+    #INF .inf_carousel{
         display: flex;
-        background-image: url('/public/img/inf.jpg');
         background-size: cover;
         background-position: center center;
         width: 1980px;
         height: 500px;
-
         opacity: 0;
         transform: scale(0.9);
         transition: 1.5s ease-in-out all;
     }
 
-    
-
-    #INF .img-inf.visible{
+    #INF .inf_carousel.visible{
         opacity: 1;
         transform: scale(1) ;
         
