@@ -161,11 +161,17 @@ DESKTOP
 
     #MMO .container{
         display: flex;
-        justify-content: center;
-
-        
+        justify-content: center; 
     }   
     
+    #MMO .mmo_carousel .c-item{
+        height: 530px;
+    }
+    #MMO .mmo_carousel .c-img{
+        object-fit: cover;
+        height: 100%; 
+    }
+
     #MMO .texto{
         padding: 150px 20px;
     }
@@ -174,13 +180,17 @@ DESKTOP
         display: flex;
         justify-content: center;
     }    
-
+    #INF .inf_carousel .c-item{
+        height: 530px;
+    }
+    #INF .inf_carousel .c-img{
+        object-fit: cover;
+        height: 100%;
+    }
+    
     #INF .texto{
         
         padding: 150px 20px;
     }
-    
-
-
 
 }
