@@ -176,11 +176,7 @@ DESKTOP
         background-size: cover;
         background-position: center center;
         width: 1980px;
-        height: 500px;
-        
-        opacity: 0;
-        transform: scale(0.9);
-        transition: 1.5s ease-in-out all;
+        height: 500px;   
     }
 
     
@@ -205,9 +201,6 @@ DESKTOP
         background-position: center center;
         width: 1980px;
         height: 500px;
-        opacity: 0;
-        transform: scale(0.9);
-        transition: 1.5s ease-in-out all;
     }
 
     #INF .inf_carousel.visible{
