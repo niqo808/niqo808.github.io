@@ -170,20 +170,6 @@ DESKTOP
         padding: 150px 20px;
     }
 
-    #MMO .mmo_carousel{
-        display: flex;
-        background-size: cover;
-        background-position: center center;
-        width: 1980px;
-        height: 500px;   
-    }
-
-    
-    #MMO .mmo_carousel.visible{
-        opacity: 1;
-        transform: scale(1) ;
-    }
-
     #INF .container{
         display: flex;
         justify-content: center;
@@ -194,17 +180,7 @@ DESKTOP
         padding: 150px 20px;
     }
     
-    #INF .inf_carousel{
-        display: flex;
-        background-size: cover;
-        background-position: center center;
-        width: 1980px;
-        height: 500px;
-    }
 
-    #INF .inf_carousel.visible{
-        opacity: 1;
-        transform: scale(1) ;
-        
-    }
+
+
 }

@@ -70,4 +70,4 @@ const observ = new IntersectionObserver(cargarImg, {
 observ.observe(mmo_img);
 observ.observe(inf_img);
 
-/*
+*/ 
