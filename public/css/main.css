@@ -172,21 +172,7 @@ DESKTOP
         display: flex;
         justify-content: center;
     }    
-    #MMO .mmo_carousel .carousel-item,
-    #INF .inf_carousel .carousel-item {
-        position: relative;
-        height: 500px; 
-    }
-
-    #MMO .mmo_carousel .carousel-item img,
-    #INF .inf_carousel .carousel-item img {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
+  
     
     #INF .texto{
         
