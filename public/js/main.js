@@ -46,8 +46,8 @@ window.addEventListener("scroll",()=>{
 })
 
 
-const mmo_img = document.getElementById('mmo_img');
-const inf_img = document.getElementById('inf_img');
+const mmo_img = document.getElementById('mmo_carousel');
+const inf_img = document.getElementById('inf_carousel');
 
 const cargarImg = (entradas, observ) => {
     //console.log(entradas),
