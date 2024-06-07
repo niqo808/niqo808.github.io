@@ -164,17 +164,6 @@ DESKTOP
         justify-content: center; 
     }   
     
-    #MMO .mmo_carousel .carousel-item{
-        height: 600px;
-        width: 600px;
-    }
-
-    #MMO .mmo_carousel .carousel-item img{
-        height: 600px;
-        width: 600px;
-        object-fit: cover; 
-    }
-
     #MMO .texto{
         padding: 150px 20px;
     }
@@ -182,15 +171,15 @@ DESKTOP
     #INF .container{
         display: flex;
         justify-content: center;
-    }    
-    #INF .inf_carousel .c-item{
-        height: 600px;
-        width: 600px;
+    #MMO .mmo_carousel .carousel-item,
+    #INF .inf_carousel .carousel-item {
+        height: 600px; /* Fixed height for carousel items */
+        width: 600px; /* Fixed width for carousel items */
     }
-    #INF .inf_carousel .c-img{
-        height: 600px;
-        width: 100%;
-        object-fit: cover; 
+
+    #MMO .mmo_carousel .carousel-item img,
+    #INF .inf_carousel .carousel-item img {
+        object-fit: cover; /* Maintain aspect ratio */
     }
     
     #INF .texto{
